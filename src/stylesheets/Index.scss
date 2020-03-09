@@ -4,10 +4,14 @@ body {
   background-color: #0c021a;
   color: #cbcbcb;
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 
-// {
+::selection {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #211859;
+}
+
 //   color: #D98289;
 //   color: #D96277;
 //   color: #A62662;
@@ -21,33 +25,3 @@ body {
 //   color: #3F4859;
 //   color: #0C0D0B;
 
-//   color: #032026;
-//   color: #80A6A2;
-//   color: #CCD9D7;
-//   color: #5A8C83;
-//   color: #36594F;
-
-//   color: #D9B23D;
-//   color: #402A01;
-//   color: #8C5E08;
-//   color: #BF8C2C;
-//   color: #260B01;
-
-//   color: #F2D194;
-//   color: #F2CB9B;
-//   color: #592B02;
-//   color: #26180C;
-//   color: #8C6542;
-
-//   color: #586E73;
-//   color: #455559;
-//   color: #86A0A6;
-//   color: #C1D4D9;
-//   color: #E9F1F2;
-
-//   color: #353940;
-//   color: #BABCBF;
-//   color: #697C8C;
-//   color: #586673;
-//   color: #F2EEEB;
-// }
