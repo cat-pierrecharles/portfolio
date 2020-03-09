@@ -12,3 +12,12 @@ ul {
 .about-emoji {
   width: 100px;
 }
+
+img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  opacity: 0.8;
+  border: 1px solid #FFFFFF;
+  border-radius: 4em 8em;
+}
