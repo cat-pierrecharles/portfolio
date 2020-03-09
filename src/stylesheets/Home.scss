@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+$color-quaternary: #746E88;
+$color-tertiary: #b490ff;
+$color-secondary: #d4c7fc;
+$color-primary: #1A0554;
+$color-main: #9e9e9e;
+
+body {
+  padding: 100px 25px 250px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.intro {
+  color: $color-tertiary;
+  font-family: 'Fira Mono', monospace;
+  font-size: 16px;
+}
+
+.title {
+  font-size: 70px;
+  font-weight: 900;
+  color: $color-secondary; 
+}
+
+.short-bio {
+  font-size: 70px;
+  font-weight: 900;
+  color: $color-quaternary; 
+}
