@@ -1,0 +1,14 @@
+@import './Index.scss';
+
+.about {
+  font-size: 40px;
+  color: $color-secondary !important;
+}
+
+ul {
+  columns: 3;
+}
+
+.about-emoji {
+  width: 100px;
+}

@@ -3,7 +3,7 @@ import '../../stylesheets/Home.scss'
 
 const Home = () => {
   return (
-    <div className='container'>
+    <div className='container pt-5'>
       <h1 className='intro mb-4'>Hi, my name is</h1>
       <h2 className='title'>Pierre Charles</h2>
       <h3 className='short-bio mr-5'>I build <span className='typer' id='main' data-words=' creative, innovative, stylish' data-delay='150' data-delay='150'></span> applications for the web</h3>
