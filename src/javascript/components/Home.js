@@ -9,7 +9,7 @@ const Home = () => {
       <h3 className='short-bio mr-5'>I build creative applications for the web.</h3>
       <div>
         <p className='description mt-5'>
-          I am a front-end developer from London currently working as an IT Consultant at the Kent IT Consultancy. Outside of work, I am finishing my final year in at the University of Kent in Canterbury.
+          I am a front-end developer from London currently working as an IT Consultant at the Kent IT Consultancy. Outside of work, I am finishing my final year in Computer Science at the University of Kent in Canterbury.
         </p>
       </div>
     </div>
