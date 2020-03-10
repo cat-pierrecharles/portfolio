@@ -16,6 +16,13 @@ i {
   color: $color-secondary;
 }
 
+i:hover {
+  -webkit-animation: fa-spin 1s linear;
+  -moz-animation: fa-spin 1s linear;
+  -o-animation: fa-spin 1s linear;
+  animation: fa-spin 1s linear;
+}
+
 img {
   @media (max-width: 725px) {
     width: 250px;
