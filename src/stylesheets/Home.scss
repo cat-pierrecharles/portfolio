@@ -16,13 +16,13 @@ body {
   @media (max-width: 725px) {
     padding: 15px 20px;
   }
-  color: $color-tertiary;
+  color: $color-secondary;
   background-color: transparent;
   line-height: 1;
   cursor: pointer;
   border-width: 1px;
   border-style: solid;
-  border-color: $color-tertiary;
+  border-color: $color-secondary;
   border-image: initial;
   border-radius: 3px;
   padding: 20px 25px;
@@ -32,8 +32,8 @@ body {
 }
 
 .cv:hover {
-  color: $color-secondary;
-  border-color: $color-secondary;
+  color: $color-tertiary;
+  border-color: $color-tertiary;
   text-decoration: none;
 }
 
