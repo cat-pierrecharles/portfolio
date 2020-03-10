@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../stylesheets/About.scss'
 import profilePicture from '../../assets/img.jpg'
+import Tilt from 'react-tilt'
 
 const About = () => {
   return (
@@ -24,9 +25,11 @@ const About = () => {
         </div>
         <div className='col-md-5'>
           <div className='py-5 img-bg'>
-            <div className='image ml-3'>
+            <Tilt className='Tilt ml-3' options={{ max: '25', transition: true, scale: 1 }}>
+            <div className='Tilt-inner'>
               <img src={profilePicture}></img>
             </div>
+            </Tilt>
           </div>
         </div>
       </div>
