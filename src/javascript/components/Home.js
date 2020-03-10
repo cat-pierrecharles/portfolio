@@ -13,7 +13,7 @@ const Home = () => {
             I am a front-end developer from London currently working as an IT Consultant at the Kent IT Consultancy. Outside of work, I am finishing my final year in Computer Science at the University of Kent in Canterbury.
             </p>
         </div>
-          <a href={cv}>Download my CV</a>
+          <a className='cv' href={cv}>Download my CV</a>
       </div>
     </div>
   )

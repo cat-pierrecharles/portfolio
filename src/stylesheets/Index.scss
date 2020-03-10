@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 $color-quaternary: #908AA4;
-$color-tertiary: #b490ff;
+$color-tertiary: #a964ff;
 $color-secondary: #d4c7fc;
 $color-primary: #1A0554;
 $color-main: #9e9e9e;
@@ -23,6 +23,16 @@ body {
   min-height: 100vh;
   margin: 0px auto;
   padding: 150px 0px;
+}
+
+a {
+  color: $color-tertiary;
+}
+
+a:hover {
+  color: $color-secondary;
+  text-decoration: none;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
 
 ::selection {

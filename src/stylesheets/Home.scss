@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400i|Playfair+Display:500i&display=swap');
-
-$color-quaternary: #908AA4;
-$color-tertiary: #b490ff;
-$color-secondary: #d4c7fc;
-$color-primary: #1A0554;
-$color-main: #9e9e9e;
+@import './Index.scss';
 
 body {
   padding: 100px 25px 250px;
@@ -17,7 +12,7 @@ body {
   height: 800px;
 }
 
-a {
+.cv {
   @media (max-width: 725px) {
     padding: 15px 20px;
   }
@@ -36,7 +31,7 @@ a {
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
 
-a:hover {
+.cv:hover {
   color: $color-secondary;
   border-color: $color-secondary;
   text-decoration: none;
@@ -44,7 +39,7 @@ a:hover {
 
 .title {
   @media (max-width: 725px) {
-    font-size: 25px;
+    font-size: 20px;
   }
   font-size: 70px;
   font-weight: 900;
@@ -53,7 +48,7 @@ a:hover {
 
 .short-bio {
   @media (max-width: 725px) {
-    font-size: 25px;
+    font-size: 20px;
   }
   font-size: 70px;
   font-weight: 900;
@@ -62,7 +57,7 @@ a:hover {
 
 .changing-span {
   @media (max-width: 725px) {
-    font-size: 25px;
+    font-size: 20px;
   }
   font-size: 70px;
   font-weight: 900;
