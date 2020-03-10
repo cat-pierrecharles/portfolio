@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400i|Playfair+Display:500i&display=swap');
 
 $color-quaternary: #908AA4;
 $color-tertiary: #b490ff;
@@ -13,31 +14,35 @@ body {
 }
 
 .container {
-  height: 800px;
-}
-
-.intro {
-  color: $color-tertiary;
-  font-family: 'Fira Mono', monospace;
-  font-size: 16px;
+  height: 900px;
 }
 
 .title {
+  @media (max-width: 725px) {
+    font-size: 40px;
+  }
   font-size: 70px;
   font-weight: 900;
   color: $color-secondary; 
 }
 
 .short-bio {
+  @media (max-width: 725px) {
+    font-size: 40px;
+  }
   font-size: 70px;
   font-weight: 900;
   color: $color-quaternary; 
 }
 
-span {
+.changing-span {
+  @media (max-width: 725px) {
+    font-size: 40px
+  }
   font-size: 70px;
   font-weight: 900;
   color: #FFFFFF !important;
+
 }
 
 .description {

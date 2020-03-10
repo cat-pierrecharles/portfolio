@@ -1,23 +1,41 @@
 @import './Index.scss';
 
 .about {
+  @media (max-width: 725px) {
+    font-size: 24px;
+  }
   font-size: 40px;
   color: $color-secondary !important;
 }
 
 ul {
-  columns: 3;
+  columns: 2;
 }
 
 .about-emoji {
   width: 100px;
 }
 
+i {
+  color: $color-secondary;
+}
+
 img {
+  @media (max-width: 725px) {
+    width: 250px;
+    height: 250px;
+  }
   width: 350px;
   height: 350px;
   object-fit: cover;
-  opacity: 0.8;
-  border: 1px solid #FFFFFF;
-  border-radius: 4em 8em;
+  border-radius: 0em 8em;
+  border: 1px solid $color-secondary
 }
+
+// .img-bg {
+//   margin-left: -17px;
+//   width: 100%;
+//   padding-bottom: 30px;
+//   border: 2px solid #FFFFFF;
+//   border-radius: 2px;
+// }

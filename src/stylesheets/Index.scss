@@ -12,17 +12,14 @@ html, body {
 }
 
 body {
+  @media (max-width: 725px) {
+    font-size: 14px !important;
+  }
   background-color: #0c021a;
   color: #cbcbcb;
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   max-width: 1000px;
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  flex-direction: column;
-  align-items: flex-start;
   min-height: 100vh;
   margin: 0px auto;
   padding: 150px 0px;
@@ -38,11 +35,3 @@ body {
 //   color: #A62662;
 //   color: #211859;
 //   color: #181240;
-
-
-//   color: #731753;
-//   color: #BFA4B8;
-//   color: #272F40;
-//   color: #3F4859;
-//   color: #0C0D0B;
-
