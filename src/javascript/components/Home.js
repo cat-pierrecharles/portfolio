@@ -4,7 +4,7 @@ import cv from '../../assets/cv.pdf'
 
 const Home = () => {
   return (
-    <div className='container pt-5 px-5'>
+    <div className='container px-5'>
       <div className='main'>
         <h1 className='title'>Pierre Charles</h1>
         <h2 className='short-bio mr-5'>I build <span className='typer changing-span' id='main' data-words=' creative, innovative, stylish' data-delay='50'></span> <br />applications for the web</h2>
