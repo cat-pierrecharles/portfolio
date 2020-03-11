@@ -5,10 +5,10 @@ import '../../stylesheets/Particle.scss'
 const config = {
   "particles": {
     "number": {
-      "value": 500,
+      "value": 38,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 962.0472365193136
       }
     },
     "color": {
@@ -58,9 +58,9 @@ const config = {
     },
     "move": {
       "enable": true,
-      "speed": 3,
-      "direction": "top",
-      "random": true,
+      "speed": 6,
+      "direction": "none",
+      "random": false,
       "straight": false,
       "out_mode": "out",
       "bounce": false,
@@ -72,7 +72,7 @@ const config = {
     }
   },
   "interactivity": {
-    "detect_on": "window",
+    "detect_on": "canvas",
     "events": {
       "onhover": {
         "enable": false,
@@ -110,7 +110,6 @@ const config = {
       }
     }
   },
-  "retina_detect": true
 }
 
 const Particle = () => {
