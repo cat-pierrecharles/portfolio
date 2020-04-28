@@ -10,19 +10,19 @@
   "author": "Pierre Charles",
   "license": "ISC",
   "dependencies": {
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-particles-js": "^2.7.1",
     "react-tilt": "^0.1.4",
     "react-web-tabs": "^1.0.1",
-    "sass": "^1.26.2",
+    "sass": "^1.26.5",
     "semantic-ui-react": "^0.88.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.7",
+    "@babel/core": "^7.9.0",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
-    "@babel/preset-env": "^7.8.7",
-    "@babel/preset-react": "^7.8.3",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
     "parcel-bundler": "^1.12.4"
   }
 }
