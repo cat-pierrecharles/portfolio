@@ -1,6 +1,6 @@
-$color-primary: rgb(109, 167, 255);
+$color-primary: rgb(32, 174, 222);
 $color-secondary:#98abe9;
-$color-tertiary: rgb(168, 188, 213);
+$color-tertiary: rgb(217, 245, 255);
 $color-quarternary: #33415C;
 $color-quinary: #5C677D;
 $color-senary: #7D8597;
@@ -22,7 +22,7 @@ body {
 }
 
 .full-height {
-  height: 85vh;
+  height: 85vh !important;
 }
 
 .heading {

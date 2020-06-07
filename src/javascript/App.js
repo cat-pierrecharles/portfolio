@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import Home from './components/Home'
-import Particle from './components/Particle'
+import Particles from './components/Particles'
 import About from './components/About'
 import Experience from './components/Experience'
 
 const App = () => {
   return (
-    <div className='px-4'>
-      <Particle />
+    <div className='mx-4'>
+      <Particles />
       <Home />
       <About />
       {/* <Experience /> */}

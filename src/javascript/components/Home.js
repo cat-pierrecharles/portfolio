@@ -10,7 +10,7 @@ export default function Home() {
   })
 
   return (
-    <div className='home container full-height px-4 mt-0'>
+    <div className='home container full-height mt-0'>
       <div className='main'>
         <h1 className='title'>Pierre Charles</h1>
         <h2 className='short-bio mr-5'>I build <span className='typer changing-span' id='main' data-words=' creative, innovative, stylish' data-delay='50'></span> <br />applications for the web</h2>
