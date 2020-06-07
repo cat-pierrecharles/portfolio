@@ -16,7 +16,7 @@ button {
   border-bottom: none;
 
   @media (max-width: 725px) {
-    height: 52px;
+    height: auto;
     text-align: center;
     border-bottom: 2px solid #5c7498;
     border-top: none;

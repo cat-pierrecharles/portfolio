@@ -12,6 +12,16 @@ const workExperience = {
       'Learning IBM’s Design Thinking Process in order to solve business issues with a technical solution'
     ]
   },
+  'Code First Girls': {
+    name: 'Code First Girls',
+    role: 'Web Development Instructor',
+    date: 'October 2019 - December 2019',
+    desc: [
+      'Teaching introduction to web development after university hours to students from different courses',
+      'Presenting topics such as HTML, CSS, JavsScript, Bootstrap, GitHub, VSCode & hosting websites',
+      'Holding a competition for best website made by groups and monitoring two groups for support',
+    ]
+  },
   'HX': {
     name: 'Holiday Extras Ltd',
     role: 'Front-End Engineer',
@@ -34,7 +44,6 @@ const workExperience = {
       'Assisting during university open days to showcase the School of Computing',
       'Used presentation and communication skills to emphasise the key features and benefite that the School of Computing offers',
       'Giving talks to placement students about what a Year in Industry is like and what it offers',
-      'Teaching Web Development after hours to students from different courses'
     ]
   }
 }

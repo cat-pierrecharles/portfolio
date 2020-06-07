@@ -19,7 +19,7 @@ export default function Experience() {
         <div className='col-12 col-md-3 d-flex align-items-md-start flex-md-column mb-5'>
           {jobName.map(name => {
             return (
-              <button key={name} className='tabs px-3' onClick={() => { setJob(name) }}>{name}</button>
+              <button key={name} className='tabs px-3 pb-2' onClick={() => { setJob(name) }}>{name}</button>
             )
           })}
         </div>
@@ -27,6 +27,8 @@ export default function Experience() {
           {job === jobName[0] && <Job name={workExperience[job].name} role={workExperience[job].role} date={workExperience[job].date} desc={workExperience[job].desc} />}
           {job === jobName[1] && <Job name={workExperience[job].name} role={workExperience[job].role} date={workExperience[job].date} desc={workExperience[job].desc} />}
           {job === jobName[2] && <Job name={workExperience[job].name} role={workExperience[job].role} date={workExperience[job].date} desc={workExperience[job].desc} />}
+          {job === jobName[3] && <Job name={workExperience[job].name} role={workExperience[job].role} date={workExperience[job].date} desc={workExperience[job].desc} />}
+
         </div>
       </div>
     </div>
