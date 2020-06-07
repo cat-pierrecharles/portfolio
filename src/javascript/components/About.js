@@ -11,7 +11,7 @@ export default function About() {
 
   return (
     <div className='about full-height'>
-      <h1 className='heading py-5'>A little bit about me</h1>
+      <h1 className='heading pb-5'>A little bit about me</h1>
       <div className='row'>
         <div className='col-lg-5 col-md-12 col-sm-12'>
           <div className='text-center img-bg'>
