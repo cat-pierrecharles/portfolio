@@ -12,7 +12,7 @@ if (typeof console === 'object') {
      _      (o>
     (o>    //|     In the meantime, enjoy these penguins!
     (/)_   V_/_ 
-  `,"color: #b8a0ff; font-size: 12px; font-family: ''Open Sans', Helvetica, sans-serif;'")
-  }
-  
-  ReactDOM.render(<App />, document.getElementById('root'))
+  `, "color: #b8a0ff; font-size: 12px; font-family: ''Open Sans', Helvetica, sans-serif;'")
+}
+
+ReactDOM.render(<App />, document.getElementById('root'))

@@ -1,14 +1,10 @@
-import React from 'react'
-import Particles from 'react-particles-js'
-import '../../stylesheets/Particle.scss'
-
-const config = {
+{
   "particles": {
     "number": {
-      "value": 38,
+      "value": 80,
       "density": {
         "enable": true,
-        "value_area": 962.0472365193136
+        "value_area": 800
       }
     },
     "color": {
@@ -40,7 +36,7 @@ const config = {
       }
     },
     "size": {
-      "value": 2,
+      "value": 3,
       "random": true,
       "anim": {
         "enable": false,
@@ -75,7 +71,7 @@ const config = {
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": false,
+        "enable": true,
         "mode": "repulse"
       },
       "onclick": {
@@ -110,12 +106,5 @@ const config = {
       }
     }
   },
+  "retina_detect": true
 }
-
-const Particle = () => {
-  return (
-    <Particles params={{ config }} />
-  )
-}
-
-export default Particle

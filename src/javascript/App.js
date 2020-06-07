@@ -6,7 +6,7 @@ import Experience from './components/Experience'
 
 const App = () => {
   return (
-    <div>
+    <div className='px-4'>
       <Particle />
       <Home />
       <About />
