@@ -1,8 +1,9 @@
-# pierrecharles.dev
+# Portfolio
 
-Welcome to https://pierrecharles.dev
 
-This is my personal website, made using [React](https://reactjs.org/) and bundled using [ParcelJS](https://parceljs.org/)
+This is my personal website https://pierrecharles.dev
+
+Made using [React](https://reactjs.org/) and bundled using [ParcelJS](https://parceljs.org/)
 
 To test it locally, clone the repository then just run the following commands: 
 
@@ -10,4 +11,4 @@ To test it locally, clone the repository then just run the following commands:
 npm i
 npm start
 ```
-Afterwards, open your browser and navigate to `localhost:1234`
+Afterwards, open your browser and navigate to http://localhost:3000
