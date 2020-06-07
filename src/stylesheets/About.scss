@@ -10,10 +10,9 @@ i {
 }
 
 i:hover {
-  -webkit-animation: fa-spin 1s linear;
-  -moz-animation: fa-spin 1s linear;
-  -o-animation: fa-spin 1s linear;
-  animation: fa-spin 1s linear;
+  color: $color-tertiary;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+
 }
 
 img {

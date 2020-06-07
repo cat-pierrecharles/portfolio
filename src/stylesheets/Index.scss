@@ -1,6 +1,6 @@
-$color-primary: rgb(32, 174, 222);
-$color-secondary:#98abe9;
-$color-tertiary: rgb(217, 245, 255);
+$color-primary: #00d0ff;
+$color-secondary:#98b8e9;
+$color-tertiary: rgb(167, 223, 244);
 $color-quarternary: #33415C;
 $color-quinary: #5C677D;
 $color-senary: #7D8597;
@@ -11,7 +11,7 @@ body {
   @media (max-width: 725px) {
     font-size: 14px !important;
   }
-  background-color: #050318;
+  background-color: #030b1c;
   color: $color-text;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
@@ -19,16 +19,18 @@ body {
   margin: 0px auto;
   padding: 120px 0px;
   overflow-x: hidden;
+  height: 900px;
 }
 
 .full-height {
-  height: 85vh !important;
+  height: 900px !important;
 }
 
 .heading {
   font-size: 40px;
   color: $color-primary;
   font-weight: 900;
+  text-transform: capitalize;
 
   @media (max-width: 725px) {
     font-size: 24px;
@@ -74,7 +76,7 @@ a:hover {
 }
 
 ::selection {
-  background-color: rgba(255, 255, 255, 0.8);
-  color: #211859;
+  background-color: rgba(240, 240, 240, 0.8);
+  color: #19497d;
 }
 

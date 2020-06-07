@@ -6,7 +6,6 @@ import sr from '../ScrollReveal'
 export default function Home() {
   useEffect(() => {
     sr.func.reveal('.home', sr.config)
-    console.log('Home page')
   })
 
   return (
@@ -19,7 +18,7 @@ export default function Home() {
             I am a front-end developer from London currently working as an IT Consultant at the Kent IT Consultancy. Outside of work, I am finishing my final year in Computer Science at the University of Kent in Canterbury.
           </p>
         </div>
-        <a className='cv' href={cv}>View my CV</a>
+        <a className='cv' href={cv} target='_blank'>View my CV</a>
       </div>
     </div>
   )

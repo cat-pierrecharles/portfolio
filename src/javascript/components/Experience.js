@@ -14,18 +14,16 @@ export default function Experience() {
 
   return (
     <div className='experience full-height'>
-      <h1 className='heading py-5'>Places I've worked in</h1>
+      <h1 className='heading py-5'>Professional experiences</h1>
       <div className='row'>
-        <div className='col-sm-12 col-md-3'>
-          <ul className='list-group'>
-            {jobName.map(name => {
-              return (
-                <li key={name} className='d-flex flex-column color-senary mr-3 link' onClick={() => { setJob(name) }}>{name}</li>
-              )
-            })}
-          </ul>
+        <div className='col-12 col-md-3 d-flex align-items-md-start flex-md-column mb-5'>
+          {jobName.map(name => {
+            return (
+              <button key={name} className='tabs px-3' onClick={() => { setJob(name) }}>{name}</button>
+            )
+          })}
         </div>
-        <div className='col-sm-12 col-md-9'>
+        <div className='col-12 col-md-9'>
           {job === jobName[0] && <Job name={workExperience[job].name} role={workExperience[job].role} date={workExperience[job].date} desc={workExperience[job].desc} />}
           {job === jobName[1] && <Job name={workExperience[job].name} role={workExperience[job].role} date={workExperience[job].date} desc={workExperience[job].desc} />}
           {job === jobName[2] && <Job name={workExperience[job].name} role={workExperience[job].role} date={workExperience[job].date} desc={workExperience[job].desc} />}
