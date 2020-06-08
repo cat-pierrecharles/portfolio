@@ -28,7 +28,6 @@ export default function Experience() {
           {job === jobName[1] && <Job name={workExperience[job].name} role={workExperience[job].role} date={workExperience[job].date} desc={workExperience[job].desc} />}
           {job === jobName[2] && <Job name={workExperience[job].name} role={workExperience[job].role} date={workExperience[job].date} desc={workExperience[job].desc} />}
           {job === jobName[3] && <Job name={workExperience[job].name} role={workExperience[job].role} date={workExperience[job].date} desc={workExperience[job].desc} />}
-
         </div>
       </div>
     </div>

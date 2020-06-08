@@ -17,7 +17,7 @@ export default function About() {
           <div className='text-center img-bg'>
             <Tilt className='Tilt mb-5' options={{ max: '25', transition: true, scale: 1 }}>
               <div className='Tilt-inner'>
-                <a className='git' href='http://www.github.com/Pierre-Charles/' target='_blank'><img src={profilePicture}></img></a>
+                <a className='git' href='http://www.github.com/Pierre-Charles/' target='_blank'><img className='profile-picture' src={profilePicture}></img></a>
               </div>
             </Tilt>
           </div>

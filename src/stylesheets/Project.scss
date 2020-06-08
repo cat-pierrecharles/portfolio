@@ -1,0 +1,39 @@
+@import './Index.scss';
+
+.img-project {
+  border: 1px solid $color-quarternary;
+  border-radius: 3px;
+}
+
+.tech {
+  border: 1px solid $color-secondary;
+}
+
+i {
+  color: $color-secondary;
+}
+
+i:hover {
+  color: $color-tertiary;
+}
+
+.tint {
+  position: relative;
+  float: left;
+}
+
+.tint:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(2, 10, 26, 0.4);
+  transition: background .3s linear;
+}
+
+.tint:hover:before {
+  background: none;
+}

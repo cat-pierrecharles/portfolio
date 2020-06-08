@@ -15,7 +15,7 @@ i:hover {
 
 }
 
-img {
+.profile-picture {
   @media (max-width: 725px) {
     width: 250px;
     height: 250px;
@@ -28,7 +28,7 @@ img {
   opacity: 1;
 }
 
-img:hover {
+.profile-picture:hover {
   background: $color-secondary;
   opacity: 0.7;
 }

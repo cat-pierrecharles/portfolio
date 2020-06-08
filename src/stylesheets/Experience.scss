@@ -9,7 +9,7 @@ button {
   color: $color-tertiary;
   text-decoration: none;
   padding: 0px 20px 2px;
-  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  transition: all 0.25s ease-in;
   border-left: 2px solid #5c7498;
   border-top: none;
   border-right: none;

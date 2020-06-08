@@ -4,7 +4,7 @@ const sr = {
   func: ScrollReveal(),
   config: {
     reset: false,
-    duration: 400,
+    duration: 200,
     easing: 'cubic-bezier(.694,0,.335,1)',
     scale: 1,
     viewFactor: 0.3,

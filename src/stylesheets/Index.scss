@@ -1,7 +1,7 @@
 $color-primary: #00d0ff;
-$color-secondary:#98b8e9;
+$color-secondary:rgb(150, 183, 233);
 $color-tertiary: rgb(167, 223, 244);
-$color-quarternary: #33415C;
+$color-quarternary: rgb(51, 65, 92);
 $color-quinary: #5C677D;
 $color-senary: #7D8597;
 $color-septenary: #b0b7c7;
@@ -75,7 +75,6 @@ a:hover {
 }
 
 ::selection {
-  background-color: rgba(240, 240, 240, 0.8);
-  color: #19497d;
+  background-color: rgb(136, 146, 176);
+  color: rgb(204, 214, 246);
 }
-
