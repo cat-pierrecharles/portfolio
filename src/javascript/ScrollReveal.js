@@ -4,8 +4,9 @@ const sr = {
   func: ScrollReveal(),
   config: {
     reset: false,
+    origin: 'bottom',
     duration: 200,
-    easing: 'cubic-bezier(.694,0,.335,1)',
+    easing: 'ease-in',
     scale: 1,
     viewFactor: 0.3,
   }
