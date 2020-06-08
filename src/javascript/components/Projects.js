@@ -12,7 +12,7 @@ export default function Experience() {
 
   return (
     <div className='projects height'>
-      <h1 className='heading py-5'>Recent projects</h1>
+      <h1 className='heading pb-5'>Recent projects</h1>
       {projects.map(project => (
         <Project key={project.name} params={project} />
       ))}

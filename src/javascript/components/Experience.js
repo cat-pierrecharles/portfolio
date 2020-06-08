@@ -14,7 +14,7 @@ export default function Experience() {
 
   return (
     <div className='experience height'>
-      <h1 className='heading py-5'>Professional experiences</h1>
+      <h1 className='heading pb-5'>Professional experiences</h1>
       <div className='row'>
         <div className='col-12 col-md-3 d-flex align-items-md-start flex-md-column mb-5'>
           {jobName.map(name => {
