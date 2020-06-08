@@ -22,7 +22,7 @@ const workExperience = {
       'Holding a competition for best website made by groups and monitoring two groups for support',
     ]
   },
-  'HX': {
+  'Holiday Extras': {
     name: 'Holiday Extras Ltd',
     role: 'Front-End Engineer',
     date: 'July 2018 - August 2019',

@@ -9,17 +9,15 @@ export default function Home() {
   })
 
   return (
-    <div className='home container full-height mt-0'>
-      <div className='main'>
-        <h1 className='title'>Pierre Charles</h1>
-        <h2 className='short-bio mr-5'>I build <span className='typer changing-span' id='main' data-words=' creative, innovative, stylish' data-delay='50'></span> <br />applications for the web</h2>
-        <div>
-          <p className='description mt-5'>
-            I am a front-end developer from London currently working as an IT Consultant at the Kent IT Consultancy. Outside of work, I am finishing my final year in Computer Science at the University of Kent in Canterbury.
+    <div className='home container height pt-0 mt-0'>
+      <h1 className='title'>Pierre Charles</h1>
+      <h2 className='short-bio mr-5'>I build <span className='typer changing-span' id='main' data-words=' creative, innovative, stylish' data-delay='50'></span> <br />applications for the web</h2>
+      <div>
+        <p className='description mt-5'>
+          I am a front-end developer from London currently working as an IT Consultant at the Kent IT Consultancy. Outside of work, I am finishing my final year in Computer Science at the University of Kent in Canterbury.
           </p>
-        </div>
-        <a className='cv' href={cv} target='_blank'>View my CV</a>
       </div>
+      <a className='cv' href={cv} target='_blank'>View my CV</a>
     </div>
   )
 }

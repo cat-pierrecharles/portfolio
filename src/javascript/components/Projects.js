@@ -11,8 +11,8 @@ export default function Experience() {
   })
 
   return (
-    <div className='projects full-height'>
-      <h1 className='heading py-5'>Some of my projects</h1>
+    <div className='projects height'>
+      <h1 className='heading py-5'>Recent projects</h1>
       {projects.map(project => (
         <Project key={project.name} params={project} />
       ))}

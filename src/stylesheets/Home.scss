@@ -3,13 +3,19 @@
 .particles {
   position: absolute !important;
 }
+
 .title {
   @media (max-width: 725px) {
     font-size: 35px;
   }
+  padding-bottom: 30px;
   font-size: 65px;
   font-weight: 900;
-  color: $color-primary; 
+  color: $color-primary;
+}
+
+.home {
+  padding-bottom: 200px !important;
 }
 
 .short-bio {
