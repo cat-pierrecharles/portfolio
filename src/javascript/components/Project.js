@@ -23,7 +23,7 @@ export default function Project(props) {
           </div>
         </div>
         <div className='col-sm-12 col-md-6 py-2'>
-          <h1 className='h4 color-tertiary'>{params.name}</h1>
+          <h1 className='h4 color-secondary'>{params.name}</h1>
           <div className='my-3'>
             {params.git && <a className='h5 mr-3' href={params.git} target='_blank'><i className='fab fa-github' /></a>}
             {params.web && <a className='h5 mr-3' href={params.web} target='_blank'><i className='fas fa-external-link-alt' /></a>}
