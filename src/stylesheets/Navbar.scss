@@ -7,18 +7,23 @@
   position: fixed;
 }
 
-@media screen and (max-width: 725px) {
-  .menu {
-    display: none;
-  }
+.spacer {
+  flex: 1;
 }
 
 code {
   font-family: 'Fira Mono', monospace;
   font-size: 15px;
+
+  @media screen and (max-width: 725px) {
+    font-size: 13px;
+  }
 }
 
 .logo {
+  @media screen and (max-width: 725px) {
+    display: none;
+  }
   color: $color-text;
   letter-spacing: 2px;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
@@ -32,17 +37,14 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  min-height: 8vh;
 }
 
 .nav-links {
   display: flex;
-  width: 40%;
+  width: 50%;
   justify-content: space-between;
   cursor: pointer;
-}
-
-.nav-links li {
-  list-style: none;
 }
 
 .nav-links a {
@@ -57,16 +59,18 @@ nav {
   color: $color-secondary;
 }
 
-.menu-bar {
-  // display: none;
+.mobile-menu {
+  display: none;
   transform: rotate(180deg);
+  cursor: pointer;
 }
 
-.menu-bar div {
+.mobile-menu div {
   height: 2px;
   background-color: $color-tertiary;
   margin: 5px;
   border-radius: 1px;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
 
 .top-bar {
@@ -79,4 +83,54 @@ nav {
 
 .bottom-bar {
   width: 12px;
+}
+
+@media screen and (max-width: 725px) {
+  .nav-links {
+    width: 60%;
+    padding: 0px !important;
+    margin: 0px !important;
+    position: absolute;
+    right: 0px;
+    height: 100vh;
+    top: 0;
+    background-color: rgba(3, 11, 28, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(100%);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  }
+
+  .nav-links a {
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+.toggle .top-bar {
+  width: 25px;
+  transform: rotate(-45deg) translate(-5px, 6px);
+  
+}
+
+.toggle .middle-bar {
+  width: 25px;
+  opacity: 0
+
+}
+
+.toggle .bottom-bar {
+  width: 25px;
+  transform: rotate(45deg) translate(-5px, -6px);
 }
