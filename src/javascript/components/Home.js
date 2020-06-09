@@ -9,7 +9,7 @@ export default function Home() {
   })
 
   return (
-    <div className='home container height pt-0 mt-0'>
+    <div className='home height mx-4'>
       <h1 className='title'>Pierre Charles</h1>
       <h2 className='short-bio mr-5'>I build <span className='typer changing-span' id='main' data-words=' creative, innovative, stylish' data-delay='50'></span> <br />applications for the web</h2>
       <div>

@@ -1,13 +1,11 @@
 @import './Index.scss';
 
-.particles {
-  position: absolute !important;
-}
-
 .title {
   @media (max-width: 725px) {
     font-size: 35px;
+    padding-top: 0px;
   }
+  padding-top: 80px;
   padding-bottom: 30px;
   font-size: 65px;
   font-weight: 900;
@@ -15,6 +13,7 @@
 }
 
 .home {
+  padding-top: 120px !important;
   padding-bottom: 200px !important;
 }
 
@@ -55,7 +54,7 @@
 
 .changing-span {
   @media (max-width: 725px) {
-    font-size: 27px;
+    font-size: 25px;
   }
   font-size: 65px;
   font-weight: 500;

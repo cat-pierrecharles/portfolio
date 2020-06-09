@@ -1,0 +1,68 @@
+@import './Index.scss';
+
+.menu {
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(2, 13, 36, 0.8);
+  position: fixed;
+}
+
+@media screen and (max-width: 725px) {
+  .menu {
+    display: none;
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+}
+
+.nav-links {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: $color-tertiary;
+  text-transform: uppercase;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+.nav-links a:hover {
+  color: $color-secondary;
+}
+
+.menu-bar {
+  // display: none;
+  transform: rotate(180deg);
+}
+
+.menu-bar div {
+  height: 2px;
+  background-color: $color-tertiary;
+  margin: 5px;
+  border-radius: 1px;
+}
+
+.top-bar {
+  width: 25px;
+}
+
+.middle-bar {
+  width: 17px;
+}
+
+.bottom-bar {
+  width: 12px;
+}

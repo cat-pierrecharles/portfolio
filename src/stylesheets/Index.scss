@@ -6,6 +6,7 @@ $color-quinary: #5C677D;
 $color-senary: #7D8597;
 $color-septenary: #b0b7c7;
 $color-text: #FAFAFA;
+$color-background: #030b1c;
 
 body {
   @media (max-width: 725px) {
@@ -15,14 +16,41 @@ body {
   color: $color-text;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
-  max-width: 1000px;
   margin: 0px auto;
-  padding: 120px 0px;
   overflow-x: hidden;
 }
 
+.content {
+  max-width: 1000px;
+}
+
+a {
+  color: $color-secondary;
+}
+
+a:hover {
+  color: $color-tertiary;
+  text-decoration: none;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+a.active {
+  color: $color-primary;
+}
+
+::selection {
+  background-color: rgb(136, 146, 176);
+  color: rgb(204, 214, 246);
+}
+
 .height {
+  padding: 150px 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .height {
   padding: 80px 0px;
+}
 }
 
 .heading {
@@ -62,19 +90,4 @@ body {
 
 .color-septenary {
   color: $color-septenary;
-}
-
-a {
-  color: $color-secondary;
-}
-
-a:hover {
-  color: $color-tertiary;
-  text-decoration: none;
-  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-}
-
-::selection {
-  background-color: rgb(136, 146, 176);
-  color: rgb(204, 214, 246);
 }
