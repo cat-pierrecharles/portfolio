@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <div className='container'>
+      <div className='container px-0'>
         <Particles />
         <Home />
         <About />

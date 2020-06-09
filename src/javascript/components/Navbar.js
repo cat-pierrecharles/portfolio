@@ -7,7 +7,7 @@ export default function Navbar() {
     <div className='fluid-container menu'>
       <nav>
         <div className='logo'>
-          <h4>pierre charles</h4>
+          <code className='color-tertiary'>&lt;pierreCharles &#47;&gt;</code>
         </div>
         <ul className='nav-links p-3 m-3'>
           <Link activeClass='active' to='home' spy={true} smooth={true} offset={0} duration={500}>Home</Link>
