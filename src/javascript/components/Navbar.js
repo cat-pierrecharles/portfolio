@@ -1,12 +1,15 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-scroll'
-import '../../stylesheets/Header.scss'
+import '../../stylesheets/Navbar.scss'
 
-export default function Header() {
+export default function Navbar() {
   return (
-    <div className='fluid-container menu mb-5'>
+    <div className='fluid-container menu'>
       <nav>
-        <ul className='nav-links p-0 m-0'>
+        <div className='logo'>
+          <h4>pierre charles</h4>
+        </div>
+        <ul className='nav-links p-3 m-3'>
           <Link activeClass='active' to='home' spy={true} smooth={true} offset={0} duration={500}>Home</Link>
           <Link activeClass='active' to='about' spy={true} smooth={true} offset={0} duration={500}>About</Link>
           <Link activeClass='active' to='experience' spy={true} smooth={true} offset={0} duration={500}>Experience</Link>
@@ -15,5 +18,4 @@ export default function Header() {
       </nav>
     </div>
   )
-
 }

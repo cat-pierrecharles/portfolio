@@ -3,7 +3,7 @@
 .menu {
   width: 100%;
   z-index: 100;
-  background-color: rgba(2, 13, 36, 0.8);
+  background-color: rgba(3, 14, 38, 0.9);
   position: fixed;
 }
 
@@ -13,16 +13,28 @@
   }
 }
 
+.logo {
+  text-transform: uppercase;
+  color: $color-text;
+  letter-spacing: 3px;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+
+}
+
+.logo:hover {
+  letter-spacing: 1px;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
+  // flex-flow: row-reverse;
   align-items: center;
-  min-height: 8vh;
 }
 
 .nav-links {
   display: flex;
-  width: 50%;
+  width: 40%;
   justify-content: space-between;
   cursor: pointer;
 }

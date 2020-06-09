@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Header from './components/Header'
+import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Particles from './components/Particles'
 import About from './components/About'
@@ -10,7 +10,7 @@ import '../stylesheets/Index.scss'
 const App = () => {
   return (
     <div>
-      <Header />
+      <Navbar />
       <div className='container'>
         <Particles />
         <Home />
