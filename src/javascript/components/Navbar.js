@@ -16,7 +16,7 @@ export default function Navbar() {
           <Link onClick={() => { navActive ? setNavActive(!navActive) : null }} activeClass='active' to='about' spy={true} smooth={true} offset={0} duration={500}>About</Link>
           <Link onClick={() => { navActive ? setNavActive(!navActive) : null }} activeClass='active' to='experience' spy={true} smooth={true} offset={0} duration={500}>Experience</Link>
           <Link onClick={() => { navActive ? setNavActive(!navActive) : null }} activeClass='active' to='projects' spy={true} smooth={true} offset={0} duration={500}>Projects</Link>
-          <Link onClick={() => { navActive ? setNavActive(!navActive) : null }} activeClass='active' to='projects' spy={true} smooth={true} offset={0} duration={500}>Contact</Link>
+          {/* <Link onClick={() => { navActive ? setNavActive(!navActive) : null }} activeClass='active' to='projects' spy={true} smooth={true} offset={0} duration={500}>Contact</Link> */}
         </ul>
         <div className={navActive ? 'mobile-menu toggle mr-3' : 'mobile-menu mr-3'} onClick={() => { setNavActive(!navActive) }}>
           <div className='top-bar'></div>
