@@ -1,7 +1,7 @@
 @import './Index.scss';
 
 .title {
-  @media (max-width: 725px) {
+  @media screen and (max-width: 768px) {
     font-size: 35px;
     padding-top: 0px;
   }
@@ -18,7 +18,7 @@
 }
 
 .short-bio {
-  @media (max-width: 725px) {
+  @media screen and (max-width: 768px) {
     font-size: 24px;
   }
   font-size: 65px;
@@ -27,7 +27,7 @@
 }
 
 .cv {
-  @media (max-width: 725px) {
+  @media screen and (max-width: 768px) {
     padding: 15px 20px;
   }
   color: $color-primary;
@@ -52,7 +52,7 @@
 }
 
 .changing-span {
-  @media (max-width: 725px) {
+  @media screen and (max-width: 768px) {
     font-size: 25px;
   }
   font-size: 65px;
@@ -65,7 +65,7 @@
 .description {
   max-width: 600px;
   margin-bottom: 90px;
-  @media (max-width: 725px){
+  @media screen and (max-width: 768px) {
     margin-bottom: 80px;
   }
 }

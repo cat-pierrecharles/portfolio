@@ -16,7 +16,7 @@ i:hover {
 }
 
 .profile-picture {
-  @media (max-width: 725px) {
+  @media screen and (max-width: 768px) {
     width: 250px;
     height: 250px;
   }

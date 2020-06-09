@@ -11,7 +11,7 @@ export default function Navbar() {
           <code className='color-tertiary'>&lt;pierreCharles &#47;&gt;</code>
         </div>
         <div className='spacer' />
-        <ul className={navActive ? 'nav-links nav-active' : 'nav-links p-3 m-3 mr-3'}>
+        <ul className={navActive ? 'nav-links nav-active' : 'nav-links p-3 m-3 mr-5'}>
           <Link onClick={() => { navActive ? setNavActive(!navActive) : null }} activeClass='active' to='home' spy={true} smooth={true} offset={0} duration={500}>Home</Link>
           <Link onClick={() => { navActive ? setNavActive(!navActive) : null }} activeClass='active' to='about' spy={true} smooth={true} offset={0} duration={500}>About</Link>
           <Link onClick={() => { navActive ? setNavActive(!navActive) : null }} activeClass='active' to='experience' spy={true} smooth={true} offset={0} duration={500}>Experience</Link>

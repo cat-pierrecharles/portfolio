@@ -9,7 +9,7 @@ $color-text: #e9e9e9;
 $color-background: #030b1c;
 
 body {
-  @media (max-width: 725px) {
+  @media screen and (max-width: 768px) {
     font-size: 14px !important;
   }
   background-color: #030b1c;
@@ -59,7 +59,7 @@ a.active {
   font-weight: 900;
   text-transform: capitalize;
 
-  @media (max-width: 725px) {
+  @media screen and (max-width: 768px) {
     font-size: 24px;
   }
 }

@@ -15,7 +15,7 @@ button {
   border-right: none;
   border-bottom: none;
 
-  @media (max-width: 725px) {
+  @media screen and (max-width: 768px) {
     height: auto;
     text-align: center;
     border-bottom: 2px solid #5c7498;
@@ -33,7 +33,7 @@ button:hover, button:focus {
   border-right: none;
   border-bottom: none;
 
-  @media (max-width: 725px) {
+  @media screen and (max-width: 768px) {
     border-bottom: 2px solid $color-primary;  
     border-top: none;
     border-right: none;
@@ -47,7 +47,7 @@ button:hover {
   border-right: none;
   border-bottom: none;
 
-  @media (max-width: 725px) {
+  @media screen and (max-width: 768px) {
     border-bottom: 2px solid $color-primary;
     border-top: none;
     border-right: none;

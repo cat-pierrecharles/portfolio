@@ -7,7 +7,7 @@ canvas {
   margin-left: -500px;
   opacity: 0.5;
 
-  @media (max-width: 725px) {
+  @media screen and (max-width: 768px) {
     opacity: 0.2;
     margin-left: 0;
 
