@@ -1,8 +1,16 @@
 import musifeelPreview from '../assets/projects/musifeel.png'
 import tumbleBotAppPreview from '../assets/projects/tumblebotapp.png'
 import tumbleBotPreview from '../assets/projects/tumblebot.png'
+import eelanaduPreview from '../assets/projects/eelanadu.png'
 
 const projectDescription = {
+  'eelanadu': {
+    name: 'Eelanadu',
+    desc: 'Official website for Eelanadu, a newspaper publishing company based in Sri Lanka.',
+    img: eelanaduPreview,
+    web: 'https://eelanadu.net/',
+    tech: ['React', 'Firebase', 'React-PDF']
+  },
   'musifeel': {
     name: 'Musifeel',
     desc: `A mood based Spotify playlist generator that uses facial and emotion recognition to identify users' moods and use their Spotify listening history to render tracks appropriate to their moods.`,
