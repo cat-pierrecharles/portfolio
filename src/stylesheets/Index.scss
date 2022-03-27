@@ -8,6 +8,9 @@ $color-septenary: #b0b7c7;
 $color-text: #e9e9e9;
 $color-background: #030b1c;
 
+html {
+	background-color: $color-background;
+}
 body {
 	@media screen and (max-width: 768px) {
 		font-size: 14px !important;

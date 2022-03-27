@@ -1,12 +1,14 @@
-import React, { useEffect } from 'react'
-import '../../stylesheets/Home.scss'
-import cv from '../../assets/cv.pdf'
-import sr from '../ScrollReveal'
+import '../../stylesheets/Home.scss';
+
+import React, { useEffect } from 'react';
+
+import cv from '../../assets/cv.pdf';
+import sr from '../ScrollReveal';
 
 export default function Home() {
 	useEffect(() => {
-		sr.func.reveal('.home', sr.config)
-	})
+		sr.func.reveal('.home', sr.config);
+	});
 
 	return (
 		<div className='home height mx-4'>
@@ -24,15 +26,18 @@ export default function Home() {
 			</h2>
 			<div>
 				<p className='description mt-5'>
-					I am a front-end engineer from London currently working as an IT
-					Consultant at the Kent IT Consultancy. Outside of work, I am finishing
-					my final year in Computer Science at the University of Kent in
-					Canterbury.
+					I am a front-end developer from London specialising in designing, building and maintaining high-end web
+					applications. I am currently working at{' '}
+					<a href='https://decision.tech/' target='_blank'>
+						Decision Technologies
+					</a>{' '}
+					as a software engineer focusing on creating bespoke, user-friendly and accessible user interfaces for B2C and
+					B2B energy suppliers.
 				</p>
 			</div>
 			<a className='cv' href={cv} target='_blank'>
 				View my CV
 			</a>
 		</div>
-	)
+	);
 }
