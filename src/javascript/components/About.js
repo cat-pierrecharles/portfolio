@@ -33,7 +33,7 @@ export default function About() {
 						personal projects or learning and playing with new frameworks/libraries.
 					</p>
 					<p>
-						My interest in web development started during in my school days when I was making a website to showcase my
+						My interest in web development started during my school days when I was making a website to showcase my
 						photography work during my A-Levels. My passion for web development made me continue expanding my knowledge
 						and led me to study Computer Science at the{' '}
 						<a href='https://www.kent.ac.uk/computing' target='_blank'>
