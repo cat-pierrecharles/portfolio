@@ -17,7 +17,7 @@ const workExperience = {
 	Garrison: {
 		name: 'Garrison Technology Limited',
 		role: 'Software Engineer',
-		date: 'July 2020 - Present',
+		date: 'July 2020 - June 2021',
 		desc: [
 			'Working in an Agile environment formed of hardware, firmware, DevOps, customer success engineers, marketing specialists and sales representatives',
 			'Creating and implementing mock APIs for development environments using FeathersJS',
