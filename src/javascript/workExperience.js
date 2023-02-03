@@ -1,8 +1,22 @@
 const workExperience = {
+	'ManyPets': {
+		name: 'ManyPets',
+		role: 'Frontend Developer',
+		date: 'August 2022 - Present',
+		desc: [
+			'Working on a vet portal application that was handed over by external consultants',
+			'Introducing reusable components throughout the codebase, making them accessible and adhering to perfect Lighthouse scores',
+			'Utilising and building upon an in-house component library using Storybook',
+			'Maintaining admin and client views while introducing feature flagging',
+			'Introducing unit, component and system tests to an application that had 0% coverage',
+			'Liaising with users of the application and collecting feedback to improve and provide a user-friendly application',
+			'Introducing linting and other tools to maintain code efficiency and making sure that the codebase is using latest, up to standard coding practices',
+		],
+	},
 	'Decision Tech': {
 		name: 'Decision Technologies',
 		role: 'Developer',
-		date: 'June 2021 - Present',
+		date: 'June 2021 - August 2022',
 		desc: [
 			'Working on B2B and B2C applications using Typescript, Vue.js and Vuex for state management',
 			'Migrating a B2C SPA (MoneySavingExpert) into a white-label platform while maintaining consistency and accessibility',
