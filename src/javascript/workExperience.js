@@ -84,18 +84,6 @@ const workExperience = {
 			'Mentoring new engineers, making sure that they integrated well into the company',
 		],
 	},
-	'Uni of Kent': {
-		name: 'School of Computing',
-		role: 'Peer Tutor & Ambassador',
-		date: 'September 2017 - May 2020',
-		desc: [
-			'Mentoring first and second year computer science students with assignments',
-			'Monitoring first year Object Oriented Programming classes and assisting with problems and answering related questions',
-			'Assisting during university open days to showcase the School of Computing',
-			'Used presentation and communication skills to emphasise the key features and benefite that the School of Computing offers',
-			'Giving talks to placement students about what a Year in Industry is like and what it offers',
-		],
-	},
 };
 
 export default workExperience;
