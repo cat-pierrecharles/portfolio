@@ -31,7 +31,7 @@ export default function Project(props) {
           <p className='my-2'>{params.desc}</p>
           <div className='my-3 d-flex justify-content-start'>
             {params.tech.map(tech => (
-              <small className='tech rounded py-2 px-3 mr-2 color-secondary'>{tech}</small>
+              <small className='tech rounded py-2 px-3 mr-2 color-secondary' key={tech}>{tech}</small>
             ))}
           </div>
         </div>
