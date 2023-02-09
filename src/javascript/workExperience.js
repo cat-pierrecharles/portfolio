@@ -1,7 +1,7 @@
 const workExperience = {
 	'ManyPets': {
 		name: 'ManyPets',
-		role: 'Frontend Developer',
+		role: 'Front-end Developer',
 		date: 'August 2022 - Present',
 		desc: [
 			"Worked on a vet portal application previously managed by external consultants",
@@ -29,8 +29,8 @@ const workExperience = {
 			"Implemented features that underwent A/B testing using Optimizely to drive better metrics and improve conversion",
 			"Conducted comprehensive testing of components and stores through Jest unit tests, reducing errors and covering all use cases",
 			"Conducted code reviews, provided suggestions, and identified areas for improvement in pull requests.",
-			"Worked collaboratively in a team of frontend and backend engineers, adhering to Agile methodologies",
-			"Utilized Postman to test and comprehend backend endpoints for implementation in frontend projects",
+			"Worked collaboratively in a team of front-end and backend engineers, adhering to Agile methodologies",
+			"Utilized Postman to test and comprehend backend endpoints for implementation in front-end projects",
 		],
 	},
 	Garrison: {
@@ -50,7 +50,7 @@ const workExperience = {
 	},
 	'Holiday Extras': {
 		name: 'Holiday Extras Limited',
-		role: 'Front-End Engineer',
+		role: 'Front-end Engineer',
 		date: 'July 2018 - August 2019',
 		desc: [
 			"Experienced in working within an Agile environment, collaborating with cross-functional teams including engineers, content writers, testers, and agile coaches.",

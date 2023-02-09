@@ -31,7 +31,7 @@ export default function Home() {
 					<a href='https://manypets.com/' target='_blank'>
 						ManyPets
 					</a>{' '}
-					as a frontend developer focusing on creating bespoke, user-friendly and accessible user interfaces for pet insurance.
+					focusing on creating bespoke, user-friendly and accessible user interfaces for pet insurance.
 				</p>
 			</div>
 			<a className='cv' href={cv} target='_blank'>
