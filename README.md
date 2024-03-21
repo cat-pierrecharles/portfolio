@@ -1,7 +1,7 @@
 # Portfolio
 
 
-This is my personal website https://pierrecharles.dev
+This is my personal website https://pierre.codes
 
 Made using [React](https://reactjs.org/) and bundled using [ParcelJS](https://parceljs.org/)
 
