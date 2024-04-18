@@ -28,10 +28,10 @@ export default function Home() {
 				<p className='description mt-5'>
 					I am a front-end developer from London specialising in designing, building and maintaining high-end web
 					applications. I am currently working at{' '}
-					<a href='https://manypets.com/' target='_blank'>
-						ManyPets
+					<a href='https://checkatrade.com/' target='_blank'>
+						Checkatrade
 					</a>{' '}
-					focusing on creating bespoke, user-friendly and accessible user interfaces for pet insurance.
+					focusing on creating bespoke, user-friendly and accessible user interfaces to provide a seamless experience for homeowners.
 				</p>
 			</div>
 			<a className='cv' href={cv} target='_blank'>
