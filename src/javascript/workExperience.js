@@ -4,17 +4,14 @@ const workExperience = {
     role: "Senior Frontend Engineer",
     date: "May 2023 - April 2024",
     desc: [
-      "Played a pivotal role within the core frontend team to optimise Checkatrade.com using Next.js and TypeScript, prioritizing AB testing methodologies to continually enhance user experience and performance",
-      "Actively participated in 'code rampages' to reduce technical debt and enhance the codebase. This included transitioning areas from JavaScript to TypeScript, improving the reusability of styled-components and utils, creating reusable and accessible components, while also focusing on testing using Jest, React Testing Library, and Playwright",
+      "Worked alongside product managers, designers, and other engineers to transform creative concepts into refined digital experiences at an agile (2-week) cadence",
+      "Played a pivotal role within the core frontend team to optimise Checkatrade.com using Next.js and TypeScript, prioritising AB testing methodologies to continually enhance user experience and performance",
+      "Actively participated in 'code rampages' to reduce technical debt and enhance the codebase. This included transitioning areas from JavaScript to TypeScript, creating reusable and accessible components, while also focusing on testing and code coverage using Jest, React Testing Library, and Playwright",
       "Introduced Storybook to facilitate code reusability across teams and enhance observability by establishing a toolkit as the brand guideline. Developed high-standard components with a focus on semantics and accessibility",
-      "Took the lead in migrating Strapi from v3 to v4 by creating new GCP projects using Terraform, managing database backups with PostgreSQL, and actively using the Strapi APIs to implement custom API routes for complex business logic",
+      "Took the lead in migrating Strapi from v3 to v4 by creating new GCP projects using Terraform, managing database backups with PostgreSQL, and actively using the Strapi APIs to implement endpoints for complex business logic",
       "Led the transition from Sentry to Datadog in the frontend, providing comprehensive training to wider teams to effectively utilise Datadog. This included demonstrating how to search/filter logs, create dashboards, alerts, monitors and how to write queries, all while ensuring proactive error detection and resolution",
-      "Collaborated with a team to develop a SPA utilising Google's Solar API, enabling homeowners to visualise solar panel installations and potential energy savings while also promoting tradespeople specialising in solar panel installations via the Checkatrade website",
-      "Utilised pino.js and pino-http in the Node backend to format and categorise logs sent to GCP, optimising logging processes for improved system performance and troubleshooting",
-      "Integrated linting tools and other best practices(ESLint, Husky, commitlint, GitHub workflows) to ensure code efficiency and adherence to coding standards",
-      "Presented achievements and advancements led by the frontend team in company-wide meetings, highlighting the team's contributions to the organisation's goals",
-      "Organized and led 'Coffee, Code, and Catchup' meetings, providing a platform for developers to showcase tech improvements, teach specific topics, present ideas, and foster collaboration within the team",
-      "Onboarded and mentored junior developers, serving as a primary point of contact and providing guidance to support their professional growth and success within the team",
+      "Collaborated with a team to develop a SPA utilising Google's Solar API, enabling homeowners to visualise solar panel installations and potential energy savings which in turn returns users to the Checkatrade website promoting specialists in solar panels",
+      "Integrated pino.js and pino-http in the Node backend to format and categorise logs being sent to GCP, optimising logging processes for improved system performance and troubleshooting",
     ],
   },
   ManyPets: {
@@ -37,7 +34,7 @@ const workExperience = {
       "Tracked and analysed user behaviour with Heap.io to identify areas for improvement and optimize the application’s performance",
     ],
   },
-  "Moneysupermarket": {
+  Moneysupermarket: {
     name: "Moneysupermarket",
     role: "Developer",
     date: "June 2021 - August 2022",
