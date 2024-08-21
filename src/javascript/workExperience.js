@@ -1,8 +1,14 @@
 const workExperience = {
+  Hometrack: {
+    name: "Hometrack (part of Houseful)",
+    role: "Full Stack Engineer",
+    date: "June 2024 - Present",
+    desc: []
+  },
   Checkatrade: {
     name: "Checkatrade",
     role: "Senior Frontend Engineer",
-    date: "May 2023 - Present",
+    date: "May 2023 - April 2024",
     desc: [
       "Worked alongside product managers, designers, and other engineers to transform creative concepts into refined digital experiences at an agile (2-week) cadence",
       "Played a pivotal role within the core frontend team to optimise Checkatrade.com using Next.js and TypeScript, prioritising AB testing methodologies to continually enhance user experience and performance",
