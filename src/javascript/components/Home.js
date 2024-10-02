@@ -28,10 +28,10 @@ export default function Home() {
 				<p className='description mt-5'>
 					I am a front-end developer from London specialising in designing, building and maintaining high-end web
 					applications. I am currently working at{' '}
-					<a href='https://https://hometrack.com/' target='_blank'>
+					<a href='https://hometrack.com/' target='_blank'>
 						Hometrack (part of Houseful)
 					</a>{' '}
-					focusing on creating bespoke, user-friendly and accessible user interfaces to redefine the mortgage journey for lenders, brokers and borrowers.                              .
+					focusing on creating bespoke, user-friendly and accessible user interfaces to redefine the mortgage journey for lenders, brokers and borrowers.
 				</p>
 			</div>
 			<a className='cv' href={cv} target='_blank'>
